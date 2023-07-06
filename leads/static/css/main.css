@@ -1,0 +1,24 @@
+#logo{
+
+}
+
+body{
+        background-color: #ebeff5;
+}
+
+#active-leads{
+        color: blue;
+        background-color: red;
+
+}
+
+#dead-leads{
+        background-color: #7abecc;
+
+}
+
+#total-leads{
+        background-color: #7CD1C0;
+
+}
+

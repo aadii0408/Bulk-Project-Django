@@ -1,0 +1,20 @@
+Id,created_at,first_name,last_name,contact,email,country,industry,status
+1,2023-05-22 11:05:17.476832+05:30,Deepu,Patel,9408898421,dhaval@gmail.com,india,DM,Dead Leads
+2,2023-05-22 11:10:17.543613+05:30,Mahek,Patel,9408898421,aditya.champaneri@9spl.com,india,DM,Active Leads
+3,2023-05-22 11:43:54.0404+05:30,Dhaval,bhai,654784846,dhaval@gmail.com,india,DP,Dead Leads
+4,2023-05-22 14:10:14.834188+05:30,Deepsg,jnj,654532,bjnjsk@gkai.com,jhndoujhq,qq,Active Leads
+5,2023-05-22 14:27:35.644021+05:30,Aaditya,shah,9408898421,aadithebrand@gmail.com,india,IT,Active Leads
+6,2023-05-22 14:28:22.064362+05:30,Aaditya,shah,9408898421,aadithebrand@gmail.com,india,IT,Active Leads
+7,2023-05-22 14:32:14.515071+05:30,Aadi shah,Patel,9408898421,aditya.champaneri@9spl.com,india,IT,Dead Leads
+8,2023-05-22 14:44:57.776227+05:30,Mahek,Patel,9408898421,mahek@gmail.com,india,IT,Active Leads
+9,2023-05-22 14:47:17.768593+05:30,Aadi,Patel,654532,dhaval@gmail.com,india,IT,Dead Leads
+10,2023-05-22 14:51:06.269896+05:30,Aadi,patel,9408898421,dhaval@gmail.com,india,IT,Active Leads
+11,2023-05-22 14:51:59.621333+05:30,Deepu,Patel,9408898421,aditya.champaneri@9spl.com,india,IT,Dead Leads
+12,2023-05-22 15:18:06.210587+05:30,Deepu,Patel,9408898421,aditya.champaneri@9spl.com,india,IT,Active Leads
+13,2023-05-22 15:31:52.270692+05:30,kritu,Patel,9408898421,aditya@gmail.com,india,IT,Active Leads
+14,2023-05-22 15:32:46.730107+05:30,kritu,Patel,9408898421,aditya@gmail.com,india,IT,Active Leads
+15,2023-05-22 15:33:00.020658+05:30,kritu,Patel,9408898421,aditya@gmail.com,india,IT,Active Leads
+16,2023-05-22 15:33:18.738537+05:30,kritu,Patel,9408898421,aditya@gmail.com,india,IT,Active Leads
+17,2023-05-22 15:33:37.781691+05:30,Dhaval,ssss,9408898421,aditya.champaneri@9spl.com,india,IT,Active Leads
+18,2023-05-22 15:41:54.379002+05:30,Deepu,Patel,9408898421,aditya.champaneri@9spl.com,india,IT,Active Leads
+19,2023-05-22 15:44:47.850697+05:30,kritu,Patel,9408898421,aditya.champaneri@9spl.com,india,IT,Dead Leads

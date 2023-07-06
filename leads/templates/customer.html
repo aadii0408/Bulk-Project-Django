@@ -1,0 +1,97 @@
+<!--<!DOCTYPE html>-->
+<!--{% extends 'base.html' %}-->
+
+<!--{% block content %}-->
+<!--<br>-->
+
+
+<!--<div class="row">-->
+<!--    <div class="col-md">-->
+<!--        <div class="card card-body">-->
+<!--            <h5>Leads</h5>-->
+<!--            <hr>-->
+
+<!--            <a class="btn btn-primary btn-sm btn-block" href="">Create Leads</a>-->
+<!--            <table class = "table table-sm">-->
+<!--            <tr>-->
+<!--                <th></th>-->
+<!--                <th>Name</th>-->
+<!--                <th>Contact</th>-->
+<!--            </tr>-->
+<!--            </table>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+<!--    <div class="col-md-7">-->
+<!--        <h5> Recent Leads</h5>-->
+<!--        <hr>-->
+<!--        <div class="card card-body">-->
+<!--            <a class="btn btn-primary btn-sm btn-block" href="">Leads Details</a>-->
+<!--            <table class= "table table-sm">-->
+<!--            <tr>-->
+
+<!--                <th>Name</th>-->
+<!--                <th>Contact</th>-->
+<!--                <th>Email</th>-->
+<!--                <th>State</th>-->
+<!--                <th>Country</th>-->
+<!--                <th>Industry</th>-->
+<!--                <th>Date</th>-->
+<!--                <th>Stauts</th>-->
+<!--            </tr>-->
+<!--            </table>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</div>-->
+
+<!--{% endblock%}-->
+
+{% extends 'base.html' %}
+{% block content %}
+
+
+<div class="card">
+  <div class="card-header"><strong>
+    	{{ customer_record.first_name }}
+		{{ customer_record.last_name }}</strong>
+  </div>
+  <div class="card-body">
+
+
+<p class="card-text">
+<strong>Name: </strong>{{ customer_record.name }}</p>
+
+<p class="card-text">
+<strong>Contact: </strong>{{ customer_record.contact }}</p>
+
+<p class="card-text">
+<strong>Email: </strong>{{ customer_record.email }}
+</p>
+
+<p class="card-text">
+<strong>Country: </strong>{{ customer_record.country }}</p>
+
+<p class="card-text">
+<strong>Industry: </strong>{{ customer_record.industry }}</p>
+
+<!--<p class="card-text">-->
+<!--<strong>Created: </strong>{{ customer_record.created_at }}</p>-->
+
+<p class="card-text">
+<strong>Status: </strong>{{ customer_record.status }}</p>
+
+
+  </div>
+</div>
+
+<br/><br/>
+<a href="{% url 'base' %}" class="btn btn-secondary">Back</a>
+
+<a href="{% url 'delete_record' customer_record.id %}" class="btn btn-danger">Delete</a>
+
+<a href="{% url 'update_record' customer_record.id %}" class="btn btn-secondary">Update Record</a>
+
+
+{% endblock %}
